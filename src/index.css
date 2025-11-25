@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+*{
+  font-family: "Outfit", sans-serif;
+}
+
+button {
+  background: #e89755;
+  padding: 8px;
+  border-radius: 17px;
+  color: white;
+  width: 160px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover{
+  background: #d68644;
+}
+
+.cl-internal-deplva {
+  width: 100% !important;
+}
